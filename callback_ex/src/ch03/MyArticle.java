@@ -7,11 +7,14 @@ public class MyArticle {
 	String article;
 	WriteArticle hacker;
 	WriteArticle sbs;
+	WriteArticle mbc;
 	
-	public MyArticle(WriteArticle hacker, WriteArticle sbs) {
+	
+	public MyArticle(WriteArticle hacker, WriteArticle sbs,WriteArticle mbc) {
 		
 		this.hacker = hacker;
-		this.hacker = sbs;
+		this.sbs = sbs;
+		this.mbc = mbc;
 	}
 	
 	public void complete() {
@@ -29,6 +32,7 @@ public class MyArticle {
 		
 		hacker.printArticle(article);
 	    sbs.printArticle(article);
+	    mbc.printArticle(article);
 		
 	}
 

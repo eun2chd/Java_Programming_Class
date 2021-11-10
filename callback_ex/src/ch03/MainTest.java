@@ -7,8 +7,9 @@ public class MainTest {
 		
 		HackerNews hackerNews = new HackerNews();
 		SbsNews sbsNews = new SbsNews();
+		MbcNews mbcNews = new MbcNews();
 		
-		MyArticle article = new MyArticle(hackerNews,sbsNews);
+		MyArticle article = new MyArticle(hackerNews,sbsNews,mbcNews);
 		article.complete();
 		
 		

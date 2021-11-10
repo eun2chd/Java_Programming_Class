@@ -21,6 +21,7 @@ public class SbsNews implements WriteArticle{
 		System.out.println(article);
 		System.out.println();
 		System.out.println("기사 작성일 : " + printDate());
+		System.out.println();
 		
 		
 	}
