@@ -156,7 +156,7 @@ class SubActivity extends JFrame implements ActionListener{
 		
 		
 	
-	}
+	} // end of SubActivity
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -190,9 +190,9 @@ class SubActivity extends JFrame implements ActionListener{
 		
 		
 		
-	}
+	} // end of performed
 	
-} 
+}  // end of actionLisnter
 
 
 

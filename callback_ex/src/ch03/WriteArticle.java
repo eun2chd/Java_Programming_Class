@@ -4,8 +4,6 @@ public interface WriteArticle {
 	
 	public void printArticle(String article);
 
-	
-	
-	
+
 
 }

@@ -9,13 +9,20 @@ public class MyArticle {
 	WriteArticle sbs;
 	WriteArticle mbc;
 	
+	public MyArticle(WriteArticle hacker) {
 	
-	public MyArticle(WriteArticle hacker, WriteArticle sbs,WriteArticle mbc) {
-		
-		this.hacker = hacker;
-		this.sbs = sbs;
-		this.mbc = mbc;
-	}
+	this.hacker = hacker;
+//	this.sbs = sbs;
+//	this.mbc = mbc;
+}
+	
+	
+//	public MyArticle(WriteArticle hacker, WriteArticle sbs,WriteArticle mbc) {
+//		
+//		this.hacker = hacker;
+//		this.sbs = sbs;
+//		this.mbc = mbc;
+//	}
 	
 	public void complete() {
 		
@@ -31,8 +38,8 @@ public class MyArticle {
 		article = sc.nextLine();
 		
 		hacker.printArticle(article);
-	    sbs.printArticle(article);
-	    mbc.printArticle(article);
+//	    sbs.printArticle(article);
+//	    mbc.printArticle(article);
 		
 	}
 

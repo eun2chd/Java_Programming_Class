@@ -9,7 +9,7 @@ public class MainTest {
 		SbsNews sbsNews = new SbsNews();
 		MbcNews mbcNews = new MbcNews();
 		
-		MyArticle article = new MyArticle(hackerNews,sbsNews,mbcNews);
+		MyArticle article = new MyArticle(hackerNews);
 		article.complete();
 		
 		
