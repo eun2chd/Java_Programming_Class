@@ -1,4 +1,4 @@
-# java Study #
+# Java Study #
 ### 학습 목표 ###
 - java 기본문법 익히기
 - for,while 반복문 처리
